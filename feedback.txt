@@ -1,0 +1,22 @@
+Feedback from Mark Nederhof at 28/03/2014 11:24:
+
+* Code
+
+Tidy and elegant code (but you're right that leftOf and rightOf are a little cumbersome).
+
+There are some unnamed constants in ngram-model.py such as 28.
+
+* Report
+
+Good observations are made in the (short) report.
+
+The introduction of errors in test material you describe as an extra, but it is of course what one expects in the experiments: to use the same model to introduce errors that is also used to correct the errors.
+
+Did Laplace smoothing affect the accuracy (provided you can find an alternative solution to the Key Value error, which should be easy)? It is regrettable you did not
+investigate this.
+
+The README file is empty.
+
+* General comments
+
+Extras include cross-validation, Laplace smoothing, an attempt to generalise to any N.
